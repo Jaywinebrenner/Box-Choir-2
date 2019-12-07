@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Dicking Around</title>
+</head>
+<body>
+
+  <!--
+    <p onmouseover="PlaySound('mySound')"
+        onmouseout="StopSound('mySound')">Hover Over Me To Play</p> -->
+        <div id="heading">
+          <p>Welcome to the </p>
+          <h1 class="chime-class" id="chime-text" onclick="testIn(); playChime(); fadeOut();" onmouseout="testOut()">BOX CHOIR</h1>
+          <p class="pushABox">Push a box, hear a choir</p>
+        </div>
+
+  <div class="container">
+
+    <div onclick="play1(); flash()" id="box" class="box1">
+    </div>
+
+    <div onclick="play2()" id="box" class="box2">
+    </div>
+
+    <div onclick="play3()" id="box" class="box3">
+    </div>
+
+    <div onclick="play4()" id="box" class="box4">
+    </div>
+
+    <div onclick="play5()" id="box" class="box5">
+    </div>
+
+    <div onclick="play6()" id="box" class="box6">
+    </div>
+
+    <div onclick="play7()" id="box" class="box7">
+    </div>
+
+    <div onclick="play8()" id="box" class="box8">
+    </div>
+
+    <div onclick="play9()" id="box" class="box9">
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <img class="angel-1" src="images/angel.png" alt="angel">
+    Have a great day
+    <img class="angel-2" src="images/angel-2.png" alt="angel 2">
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
